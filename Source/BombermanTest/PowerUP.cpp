@@ -43,7 +43,7 @@ void APowerUP::Tick(float DeltaTime)
 
 void APowerUP::OnPowerUPOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, "CollisionDetected");
+	
 	Destroy();
 }
 
