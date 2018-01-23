@@ -15,9 +15,11 @@ void AIncreaseBombDamagePowerUp::OnPowerUPOverlap(UPrimitiveComponent* Overlappe
 
 			damageUpdated = true;
 		}
+
+		Destroy();
 	}
 
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, "Increase Damage");
-	Destroy();
+
 }
 

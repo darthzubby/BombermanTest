@@ -15,9 +15,11 @@ void ASpeedPowerUp::OnPowerUPOverlap(UPrimitiveComponent* OverlappedComponent, A
 
 			speedUpdated = true;
 		}
+
+		Destroy();
 	}
 
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, "SpeedBoost");
-	Destroy();
+	
 }
 

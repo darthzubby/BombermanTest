@@ -14,10 +14,12 @@ void AIncreaseBombAmountPowerUp::OnPowerUPOverlap(UPrimitiveComponent* Overlappe
 
 			bombTotalUpdated = true;
 		}
+
+		Destroy();
 	}
 
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, "Increase bomb amount");
-	Destroy();
+	
 }
 
 
