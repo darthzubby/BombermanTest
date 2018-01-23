@@ -2,6 +2,8 @@
 
 Total Dev Time: 16ish hours
 
+Finished Downloadable Build: https://zubby.itch.io/bomberman
+
 Development Process:
 Started by implementing the player character's, made it so that the player can't move if you press two input keys at the same time, this and stops the player moving diagonally. One challenge was getting the input for both the players, as keyboard input is automaticlly assigned to player 1 controller. So I used the Player 1 to call movement functions on Player 2, when Player 2s inputs are pressed, which allowed Player 2 to move.
 
